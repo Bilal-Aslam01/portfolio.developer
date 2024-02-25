@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;   
+}
+:root{
+    --primary-color:#00246B;
+    --secondary-color:#CADCFC;
+    --text-color:black;
+}
+
+@font-face {
+    font-family:Satisfy-Regular;
+    src: url(/Assets/fonts/Satisfy-Regular.ttf);
+}
+
+.forcolor{
+    background-color:var(--secondary-color);
+}
+
+/* Header */
+.header.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.header .navbar{
+    background-color:var(--primary-color) !important; 
+}
+.qwe{
+    font-family: Satisfy-Regular;
+    display: flex;
+    justify-content: end;
+}
+.header .navbar .opi{
+    color: var(--secondary-color);
+    
+}
+.header .navbar .tre{
+    color:var(--secondary-color);
+}
+.header .navbar .tre:hover{
+    color:var(--text-color)
+}
+
+/* name-animation */
+.name-animation{
+    font-family: Satisfy-Regular;
+    display: flex;
+      
+}
+.name-animation .leftside{
+    width: 40%;
+    margin-top: 90px;
+}
+.para{
+    color:var(--text-color);
+}
+.name-animation .leftside .btns{
+    text-align: center;
+    margin-top: 20px;
+}
+.name-animation .leftside .button{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin:50px;
+}
+
+.name-animation .leftside .button .re{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px;
+    background-color:var(--primary-color);
+    color:var(--secondary-color);
+}
+.name-animation .leftside .button .re:hover{
+    background-color:var(--secondary-color);
+    color: var(--primary-color);
+
+}
+.name-animation .rightside{
+    width: 60%;
+display: flex;
+justify-content: end;
+}
+
+.whatido{
+    display: flex;
+}
+
+.whatido .leftside{
+    width: 40%;
+    margin-top: 30px;
+}
+
+.whatido .rightside{
+    font-family: Satisfy-Regular;
+
+    width: 50%;
+}
+.whatido .rightside .we{
+text-align: center;
+margin: auto;
+}
+
+.we{
+    width: 20px;
+    filter: grayscale(1);
+  }
+.we:hover {
+    filter: grayscale(0);
+  }
+
+
+/* skillbar */
+.skills-bar{
+    font-family: Satisfy-Regular;
+
+    width: 80%;
+}
+.education{
+    font-family: Satisfy-Regular;
+
+}
